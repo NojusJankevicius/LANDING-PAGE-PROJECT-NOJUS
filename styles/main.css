@@ -1,0 +1,64 @@
+@import "navbar.css";
+
+.min-height{
+    min-height: 50vh;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-weight:bolder;
+}
+
+
+.child {
+    position: absolute;
+    top: 15%;
+}
+
+.image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    filter: opacity(0.2);
+    z-index: 0;
+  }
+
+.zi {
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    font: normal;
+}
+
+
+.terms{ 
+    font-size: 0.6rem;
+}
+
+.p-pb {
+    padding-bottom: 38px
+}
+
+.btn-position-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-space-up {
+    margin-top: 84px;
+    padding-top: 84px;
+}
